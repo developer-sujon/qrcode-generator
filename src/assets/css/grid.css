@@ -1,0 +1,11 @@
+.grid-col {
+  align-items: center;
+  padding: 15px;
+  border-right: 1px dashed #ff0000;
+  border-bottom: 1px dashed #ff0000;
+}
+.grid-div {
+  margin: 10px 2px 10px 2px;
+  border-left: 1px dashed #ff0000;
+  border-top: 1px dashed #ff0000;
+}

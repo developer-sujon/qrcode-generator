@@ -1,0 +1,125 @@
+.side-nav-open {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    scrollbar-color: #217346 #F5F5F5;
+    scrollbar-width: thin;
+}
+.side-nav-close {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    scrollbar-color: #217346 #F5F5F5;
+    scrollbar-width: thin;
+}
+
+.side-nav-open::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.side-nav-open::-webkit-scrollbar-track-piece  {
+    background-color: #F5F5F5;
+}
+.side-nav-open::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    border-radius: 4px;
+    background: #217346;
+}
+
+.side-nav-close::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.side-nav-close::-webkit-scrollbar-track-piece  {
+    background-color: #F5F5F5;
+}
+.side-nav-close::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    border-radius: 4px;
+    background: #217346;
+}
+
+.content {
+    transition: 0.3s;
+    margin-left: 240px;
+}
+.content-expand {
+    transition: 0.3s;
+    margin-left: 0;
+}
+
+.top-navbar{
+    background:#217346;
+    transition: 0.3s;
+    margin-left: 240px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.03);
+}
+.top-navbar-expand{
+    background:#217346;
+    transition: 0.3s;
+    margin-left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+}
+
+.side-nav-top{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+.side-nav-logo {
+    width: 100px;
+    height: auto;
+}
+
+.side-bar-item{
+    display: inline-block;
+    padding: 8px 5px 8px 5px;
+    width: 100% !important;
+}
+.side-bar-item:hover{
+    border-left: 4px solid #217346;
+    transition: 0.2s;
+    background-color: #f3f3f3;
+}
+.side-bar-item:hover .side-bar-item-icon {
+    color: #217346;
+}
+.side-bar-item:hover .side-bar-item-caption {
+    color: #217346;
+}
+.side-bar-item-active{
+    border-left: 4px solid #217346;
+    background-color: #f3f3f3;
+}
+.side-bar-item-icon{
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: 300;
+    color: #4E4E4E;
+}
+.side-bar-item-caption{
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: 300;
+    color: #767676;
+}
+
+
+.side-bar-group-label{
+    font-size: 10px;
+    margin-left: 5px;
+    font-weight: 400;
+    color: #000000;
+}
